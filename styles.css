@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: 'Kanit', sans-serif;
 }
 
 header {
@@ -55,36 +58,21 @@ nav a.active {
   color: #ffd700; /* Change to your preferred active color */
 }
 
-.menu-item {
-  width: auto;
-}
-
-.item-name-price{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
 .item-name {
-  width: 75%;
-  padding: 8px;
-  box-sizing: border-box;
   text-align: left;
+  width: 80%;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 .price {
-  width: 20px;
-  padding: 15px;
-  box-sizing: border-box;
   text-align: right;
 }
 
 .item-descr {
-  width: 75%;
-  padding: 15px;
-  box-sizing: border-box;
-  margin-top: 1px;
   text-align: left;
-  border-bottom: 2px solid #000; /* Set the color and thickness of the underline */
-  padding-bottom: 5px; /
+  width: 80%;
+  border-bottom: solid 1px black;
+  font-size: 15px;
+  color: #5b5a5a;
 }
